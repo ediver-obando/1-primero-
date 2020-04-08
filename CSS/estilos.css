@@ -1,6 +1,7 @@
 body{
-    background-color: peru;
+    background-color: #838383;
     color: black;
+    padding: 50px;
 }
 nav, header, .contenedor, .central, footer{
     max-width: 85%;
@@ -8,26 +9,35 @@ nav, header, .contenedor, .central, footer{
 }
 
 nav{
-    background-color: brown;
+    background-color: #005883;
     text-align: center;
 }
 header{
-    background-color: darkblue;
-}
-.contenedor{
-    background-color: brown;
-}
-.central{
-    background-color: brown;
-    display: inline-block;
-    max-width: 75%;
-}
-footer{
-    background-color: mediumblue;
+    background-color: #f08424;
     
 }
+.contenedor{
+    background-color: #005883;
+}
+.central{
+    background-color: #005883;
+    display: inline-block;
+    max-width: 75%;
+    margin: 20px;
+}
+footer{
+    background-color: #005883;
+    
+    
+}
+footer p{
+    padding: 5px;
+}
+footer h6{
+    padding: 5px;
+}
 aside{
-    background-color: cornflowerblue;
+    background-color: #005883;
     display: inline-block;
     max-width: 20%;
 }
@@ -45,7 +55,7 @@ li a, boton{
 }
 .listaDespegable{
     display: none;
-    background-color: rgb(138, 23, 23);
+    background-color: #f08424;
     position: absolute;
 }
 .listaDespegable a{
