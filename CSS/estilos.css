@@ -9,8 +9,9 @@ nav, header, .contenedor, .central, footer{
 
 nav{
     background-color: brown;
+    text-align: center;
 }
-header´{
+header{
     background-color: darkblue;
 }
 .contenedor{
@@ -29,4 +30,32 @@ aside{
     background-color: cornflowerblue;
     display: inline-block;
     max-width: 20%;
+}
+/*Menu*/
+
+.menu li{
+    display:inline-block;
+}
+li a, boton{
+    display: inline-block;
+    color: rgb(207, 207, 233);
+    text-align: center;
+    text-decoration: none;
+    padding: 0.9em 1em;
+}
+.listaDespegable{
+    display: none;
+    background-color: rgb(138, 23, 23);
+    position: absolute;
+}
+.listaDespegable a{
+    color: mintcream;
+    display: block;
+    text-align: left;
+}
+.boton:hover .listaDespegable{
+    display: block;
+}
+li a:hover{
+    background-color: orangered;
 }
