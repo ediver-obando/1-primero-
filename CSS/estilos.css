@@ -1,0 +1,32 @@
+body{
+    background-color: peru;
+    color: black;
+}
+nav, header, .contenedor, .central, footer{
+    max-width: 85%;
+    margin: auto;
+}
+
+nav{
+    background-color: brown;
+}
+header´{
+    background-color: darkblue;
+}
+.contenedor{
+    background-color: mediumseagreen;
+}
+.central{
+    background-color: brown;
+    display: inline-block;
+    max-width: 75%;
+}
+footer{
+    background-color: mediumblue;
+    
+}
+aside{
+    background-color: cornflowerblue;
+    display: inline-block;
+    max-width: 20%;
+}
